@@ -44,9 +44,4 @@ public class movement : MonoBehaviour
                 rb.velocity = (moveDir * speed);
             }
     }
-
-    void OnTriggerEnter(Collider cldr)
-    {
-        Destroy(cldr.gameObject);
-    }
 }
